@@ -1,0 +1,106 @@
+/**Base styles- Mobile**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:  Algerian, Broadway,sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+body{
+  background-color: black;
+}
+
+marquee{
+  margin: 10px;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+h1{
+	text-align: center;
+	color: darkred;
+	margin: 30px;
+}
+.section {
+  background-color:salmon;
+  border: 3px solid;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.title{
+  width: 120px;
+  text-align: center;
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+  padding: 5px;
+  float: right;
+  border-style: ridge;
+  position: relative;
+}
+.description{
+	padding: 10px;
+  padding-top: 20px;
+	margin: 20px;	
+}
+#title-1{
+	background-color: lightskyblue;
+}
+
+#title-2{
+	background-color: blueviolet;
+}
+
+#title-3{
+	background-color: antiquewhite;
+}
+#section-2{
+  background-color: sandybrown;
+}
+#section-3{
+  background-color: sienna;
+}
+
+
+          /****medium device only****/
+@media(min-width: 768px) and (max-width: 991px) {
+  h1 {
+    width: 100%;
+    left: 35px;
+  }
+
+  .section {
+    margin: 0px;
+    margin-bottom: 5%;
+    width: 40%;
+    float: left;
+    left: 35px;
+  }
+
+  #section-3 {
+    clear: both;
+    width: 90%;
+
+  }
+
+  #section-1 {
+    margin-right: 10%;
+  }
+
+}
+
+           /***large device only***/
+@media(min-width: 992px) {
+
+  .section {
+    margin: 0px;
+    margin-right: 2%;
+    width: 30%;
+    float: left;
+  }
+
+  #section-1 {
+    margin-left: 2%;
+  }
+
+}
